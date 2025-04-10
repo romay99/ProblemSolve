@@ -1,2 +1,1 @@
-# ProblemSolve
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# 하루 한문제씩 **격.파.한.다**
