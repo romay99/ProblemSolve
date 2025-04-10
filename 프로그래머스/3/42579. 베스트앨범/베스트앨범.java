@@ -15,7 +15,6 @@ class Solution {
             if(map.containsKey(node.g)){
                 pq = map.get(node.g);
                 pq.add(node);
-                map.put(node.g, pq);
                 
             } else {
                 pq.add(node);
