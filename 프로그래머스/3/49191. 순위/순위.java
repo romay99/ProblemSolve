@@ -21,10 +21,10 @@ class Solution {
         for(int i = 1 ; i <= n ; i ++){
             int cnt = 0 ;
             int[] now = list[i];
-            for(int a : now) {
-                if(a == 0) cnt++;
+            for(int j = 1 ; j <= n ; j++){
+                if(now[j] == 0) cnt++;
             }
-            if(cnt == 2) answer ++;
+            if(cnt == 1) answer ++;
         }
         return answer;
     }
